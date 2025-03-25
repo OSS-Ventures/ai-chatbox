@@ -1,0 +1,21 @@
+# Development files
+.vscode/
+.idea/
+.git/
+.github/
+node_modules/
+example/
+src/
+tests/
+
+# Config files
+.eslintrc.cjs
+.gitignore
+.npmrc
+tsconfig.json
+tsconfig.node.json
+vite.config.ts
+
+# Misc
+*.log
+.DS_Store

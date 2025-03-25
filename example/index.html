@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Chatbox Demo</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="app">
+    <h1>AI Chatbox Demo</h1>
+    <div class="demo-container">
+      <ai-chatbox 
+        :initial-messages="initialMessages"
+        @send="handleSend"
+        @receive="handleReceive"
+      ></ai-chatbox>
+    </div>
+  </div>
+  <script type="module" src="./main.js"></script>
+</body>
+</html>
